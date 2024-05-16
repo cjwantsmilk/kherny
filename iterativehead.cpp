@@ -19,17 +19,17 @@ int main() {
 
     std::cout   << "sorting the rapay ---> ";
     for (int i = 0; i < size; ++i)
-           std::cout << rap[i] << " ";
+           std::cout << rap[i] << "           ";
     std::cout   << std::endl;
     iterativeheaps(rap1, size1);
     std::cout   << "sorted repay ---> ";
     for (int i = 0; i < size; ++i)
-         std::cout << rap1[i] << " ";
+         std::cout << rap1[i] << "           ";
     std::cout << std::endl;
     iterativeheaps(rapgpp, size2);
     std::cout << "sorted rapay -->  ";
     for   (int i = 0; i < size; ++i)
-        std::cout << rapgpp[i] << " ";
+        std::cout << rapgpp[i] << "         ";
     std::cout    << std::endl;
 
 }
